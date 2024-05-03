@@ -1,0 +1,66 @@
+#!/bin/bash
+#Function to get IP address
+yourIP() {
+ip=$(ip a)
+echo "$ip"
+}
+#Function to get DNS servers
+get_dns() {
+dns=$(resolvectl status)
+echo "$dns"
+}
+#Function to get open ports
+get_open_tcp_ports() {
+open_tcp_ports=$(netstat -at)
+echo "$open_tcp_ports"
+}
+#Function to preform traceroute
+get_traceroute() {
+traceroute_output=$(mtr --report-c 1 google.com)
+echo "$traceroute_output"
+}
+#Function to get routing information
+RoutingTable() {
+routing=$(route)
+echo "$routing"
+}
+#Function to preform DNS lookup
+get_dns_lookup() {
+dns_lookup=$(nslookup google.com)
+echo "$dns_lookup"
+}
+#Function to display ARP table
+get_arp_table() {
+arp_table=$(arp -a)
+echo "arp_table"
+}
+#Function to get network interface status
+get_interface_status() {
+interface_status=$(ifplugstatus)
+echo "$interface_status"
+}
+#Dump network info to command line echo Network Information "
+echo " Network information "
+echo " "
+echo " IP address:"
+yourIP
+echo " "
+echo "DNS Servers:"
+get_dns
+Echo "Open tcp Ports:"
+get_open_tcp_ports
+echo " "
+echo "Traceroute to google.com:"
+get_traceroute
+echo " "
+"Routing Information:"
+RoutingTable
+echo " "
+echo "DNS Lookup for google.com:"
+get_dns_lookup
+echo " "
+echo "ARP Table:"
+get_arp_table
+echo " "
+"Interface Status:"
+get_interface_status
