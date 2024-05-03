@@ -26,16 +26,14 @@ we have constructed a script that offers detailed instructions on how we want ou
 4-Blocking The Telnet traffic protocol is highly recommended because Telnet lacks encryption and authentication mechanisms, leaving it vulnerable due to its older design. 
 5-To protect our machine from D- DOS attack we decided to block incoming  ICMP ping echo and  trace route request 
 ![pic7](assets/Screenshot 7.png)
-![pic8](assets/Screenshot 8.png)
-
 after launching the script we can the iptables rules has been updated according to our specification
-![pic9](assets/Screenshot 9.png)
+
 
 # III)script for monitoring hidden files on home, and all files in root directory using GIT Function
-![pic10](assets/Screenshot 10.png)
+![pic8](assets/Screenshot 8.png)
 
 This script keeps an eye on hidden files in two specific directories “/home” and “/root”. It looks for files whose names start with a dot (.), which are usually hidden. It also uses Git, a version control system, to track changes to the script itself. Each time the script runs, it adds itself to the Git records, making it easy to see when it was last checked. This helps in staying aware of any changes over time. Running the script regularly ensures ongoing monitoring of hidden files and maintains a log of any script updates.
-![pic11](assets/Screenshot 11.png)
+![pic9](assets/Screenshot 9.png)
 
 The output reveals significant updates and discoveries. Firstly, it indicates modifications made to a script file named "security_script.3.sh", with added new lines added, marking changes to its functionality. Additionally, hidden files have been unearthed within the "/home/jason" and "/root" directories, hinting at the presence of concealed data. These findings underscore the importance of vigilant monitoring and maintenance to ensure the security and integrity of system files and directories.
 
