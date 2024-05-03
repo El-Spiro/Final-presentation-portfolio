@@ -8,10 +8,13 @@ Hello everyone, My name is Jason, i am presenting this portfolio for the final p
 # 1)Cluster Linux diagnostic command
 ![pic1](assets/Screenshot 1.png)
 ![pic2](assets/Screenshot 2.png)
-
-script explanation:this script works by using multiple networking diagnostic commands function and store them each into a given variable.
+# script explanation:
+this script works by using multiple networking diagnostic commands function and store them each into a given variable.
 We activate each command by running echo request to the variable we obtain the current results in the picture bellow. 
 This script serves as a multiple command launcher aiding the user to diagnose the machine connectivity to the internet network
+![pic3](assets/Screenshot 3.png)
+![pic4](assets/Screenshot 4.png)
+
 
 ## Work Experience
 **Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
