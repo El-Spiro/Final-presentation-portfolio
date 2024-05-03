@@ -3,12 +3,14 @@
 # Intoduction:
 Hello everyone, My name is Jason, i am presenting this portfolio for the final project. Within this presentation, I've highlighted some of the completed assignments and exercises that I've worked on throughout this course. Additionally, I've added a resume that explains not only how the scripts function and how does how serve us, all the following scripts are found in my Github page 
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
-## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+
+# 1)Cluster Linux diagnostic command
+![pic1](assets/1.png)
+
+script explanation:this script works by using multiple networking diagnostic commands function and store them each into a given variable.
+We activate each command by running echo request to the variable we obtain the current results in the picture bellow. 
+This script serves as a multiple command launcher aiding the user to diagnose the machine connectivity to the internet network
 
 ## Work Experience
 **Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
