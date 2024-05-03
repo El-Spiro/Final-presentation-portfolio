@@ -5,7 +5,7 @@ Hello everyone, My name is Jason, i am presenting this portfolio for the final p
 
 
 
-# 1)Cluster Linux diagnostic command
+# I)Cluster Linux diagnostic command
 ![pic1](assets/Screenshot 1.png)
 ![pic2](assets/Screenshot 2.png)
 ![pic5](assets/assets/200w.gif)
@@ -17,16 +17,18 @@ This script serves as a multiple command launcher aiding the user to diagnose th
 ![pic4](assets/Screenshot 4.png)
 
 
-## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+# II)Linux firewall security rules
+# script explanation:
+we have constructed a script that offers detailed instructions on how we want our machine firewall to function.
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+1-In this script, we secure our SSH traffic but allow SHH connection from a specific computer MAC address.
 
-## Projects
+3-Because HTTP protocol is insecure, we block HTTP incoming and outgoing traffic protecting our machine communication to the web
+
+4-Blocking The Telnet traffic protocol is highly recommended because Telnet lacks encryption and authentication mechanisms, leaving it vulnerable due to its older design. 
+
+5-To protect our machine from D- DOS attack we decided to block incoming  ICMP ping echo and  trace route request 
+
 ### Data-Driven EEG Band Discovery with Decision Trees
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
