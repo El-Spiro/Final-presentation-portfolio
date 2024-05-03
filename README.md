@@ -6,6 +6,7 @@ Hello everyone, My name is Jason, i am presenting this portfolio for the final p
 
 
 # I)Cluster Linux diagnostic command
+![pic0](assets/200w.gif)
 ![pic1](assets/Screenshot 1.png)
 ![pic2](assets/Screenshot 2.png)
 # script explanation:
