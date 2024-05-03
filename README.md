@@ -13,6 +13,8 @@ Hello everyone, My name is Jason, i am presenting this portfolio for the final p
 this script works by using multiple networking diagnostic commands function and store them each into a given variable.
 We activate each command by running echo request to the variable we obtain the current results in the picture bellow. 
 This script serves as a multiple command launcher aiding the user to diagnose the machine connectivity to the internet network
+
+
 ![pic0](assets/radarops.gif)
 ![pic3](assets/Screenshot 3.png)
 ![pic4](assets/Screenshot 4.png)
