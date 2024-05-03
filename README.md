@@ -1,6 +1,7 @@
 # Final-presentation-portfolio
 
-# Data Scientist
+# Intoduction:
+Hello everyone, My name is Jason, i am presenting this portfolio for the final project. Within this presentation, I've highlighted some of the completed assignments and exercises that I've worked on throughout this course. Additionally, I've added a resume that explains not only how the scripts function and how does how serve us, all the following scripts are found in my Github page 
 
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
