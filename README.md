@@ -8,7 +8,6 @@ Hello everyone, My name is Jason, i am presenting this portfolio for the final p
 # I)Cluster Linux diagnostic command
 ![pic1](assets/Screenshot 1.png)
 ![pic2](assets/Screenshot 2.png)
-![pic5](assets/assets/200w.gif)
 # script explanation:
 this script works by using multiple networking diagnostic commands function and store them each into a given variable.
 We activate each command by running echo request to the variable we obtain the current results in the picture bellow. 
@@ -19,15 +18,18 @@ This script serves as a multiple command launcher aiding the user to diagnose th
 
 # II)Linux firewall security rules
 # script explanation:
+![pic5](assets/Screenshot 5.png)
+![pic6](assets/Screenshot 6.png)
 we have constructed a script that offers detailed instructions on how we want our machine firewall to function.
-
 1-In this script, we secure our SSH traffic but allow SHH connection from a specific computer MAC address.
-
 3-Because HTTP protocol is insecure, we block HTTP incoming and outgoing traffic protecting our machine communication to the web
-
 4-Blocking The Telnet traffic protocol is highly recommended because Telnet lacks encryption and authentication mechanisms, leaving it vulnerable due to its older design. 
-
 5-To protect our machine from D- DOS attack we decided to block incoming  ICMP ping echo and  trace route request 
+![pic7](assets/Screenshot 7.png)
+![pic8](assets/Screenshot 8.png)
+
+after launching the script we can the iptables rules has been updated according to our specification
+![pic9](assets/Screenshot 9.png)
 
 ### Data-Driven EEG Band Discovery with Decision Trees
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
