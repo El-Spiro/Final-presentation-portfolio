@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Define backup directory
+backup_dir="/backup"
+
+# Create backup directory if it doesn't exist
+mkdir -p "$backup_dir"
+
+# Backup /home/jason directory
+echo "Backing up /home/jason directory"
+cp -r /home/jason "$backup_dir"
+
+# Backup auth.log file
+echo "Backing up auth.log file"
+cp /var/log/auth.log "$backup_dir"
+
+# Compress backup files
+echo "Compressing backup files"
+backup_file="backup_$(date +%Y-%m-%d_%H-%M-%S).tar.gz"
+tar -czvf "$backup_file" "$backup_dir"
+
+echo "Backup completed: $backup_file"
