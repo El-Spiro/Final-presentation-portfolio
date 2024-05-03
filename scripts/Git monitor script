@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Initialize Git repository if not already initialized
+if [ ! -d .git ]; then
+    git init
+fi
+
+# Add script to Git repository
+git add "$0"
+
+
+git commit -m "Script update: $(date +'%Y-%m-%d %H:%M:%S')"
+
+# Define the directories to monitor
+HOME_DIRECTORY="/home"
+ROOT_DIRECTORY="/root"
+
+# Function to check for hidden files
+check_hidden_files() {
+    hidden_files_jason=$(find "$HOME_DIRECTORY" -type f -name ".*" -not -name ".")
+    hidden_files_root=$(sudo find "$ROOT_DIRECTORY" -type f -name ".*" -not -name ".")
+
+    if [ -n "$hidden_files_jason" ]; then
+        echo "Hidden files found in $HOME_DIRECTORY:"
+        echo "$hidden_files_jason"
+       
+    else
+        echo "No hidden files found in $HOME_DIRECTORY."
+    fi
+
+    if [ -n "$hidden_files_root" ]; then
+        echo "Hidden files found in $ROOT_DIRECTORY:"
+        echo "$hidden_files_root"
+        # You can add additional actions here, like sending an email or a notification
+    else
+        echo "No hidden files found in $ROOT_DIRECTORY."
+    fi
+}
+
+# Run the function to check for hidden files
+check_hidden_files
