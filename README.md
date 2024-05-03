@@ -37,6 +37,7 @@ after launching the script we can the iptables rules has been updated according 
 This script keeps an eye on hidden files in two specific directories “/home” and “/root”. It looks for files whose names start with a dot (.), which are usually hidden. It also uses Git, a version control system, to track changes to the script itself. Each time the script runs, it adds itself to the Git records, making it easy to see when it was last checked. This helps in staying aware of any changes over time. Running the script regularly ensures ongoing monitoring of hidden files and maintains a log of any script updates.
 ![pic11](assets/Screenshot 11.png)
 
+The output reveals significant updates and discoveries. Firstly, it indicates modifications made to a script file named "security_script.3.sh", with added new lines added, marking changes to its functionality. Additionally, hidden files have been unearthed within the "/home/jason" and "/root" directories, hinting at the presence of concealed data. These findings underscore the importance of vigilant monitoring and maintenance to ensure the security and integrity of system files and directories.
 
 ### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
 [Publication](https://www.mdpi.com/1424-8220/22/11/4240)
