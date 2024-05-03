@@ -13,6 +13,7 @@ Hello everyone, My name is Jason, i am presenting this portfolio for the final p
 this script works by using multiple networking diagnostic commands function and store them each into a given variable.
 We activate each command by running echo request to the variable we obtain the current results in the picture bellow. 
 This script serves as a multiple command launcher aiding the user to diagnose the machine connectivity to the internet network
+![pic0](assets/radarops.gif)
 ![pic3](assets/Screenshot 3.png)
 ![pic4](assets/Screenshot 4.png)
 
@@ -25,7 +26,8 @@ we have constructed a script that offers detailed instructions on how we want ou
 1-In this script, we secure our SSH traffic but allow SHH connection from a specific computer MAC address.
 3-Because HTTP protocol is insecure, we block HTTP incoming and outgoing traffic protecting our machine communication to the web
 4-Blocking The Telnet traffic protocol is highly recommended because Telnet lacks encryption and authentication mechanisms, leaving it vulnerable due to its older design. 
-5-To protect our machine from D- DOS attack we decided to block incoming  ICMP ping echo and  trace route request 
+5-To protect our machine from D- DOS attack we decided to block incoming  ICMP ping echo and  trace route request
+![pic0](assets/89ow1b.gif)
 ![pic7](assets/Screenshot 7.png)
 after launching the script we can the iptables rules has been updated according to our specification
 
@@ -35,7 +37,7 @@ after launching the script we can the iptables rules has been updated according 
 
 This script keeps an eye on hidden files in two specific directories “/home” and “/root”. It looks for files whose names start with a dot (.), which are usually hidden. It also uses Git, a version control system, to track changes to the script itself. Each time the script runs, it adds itself to the Git records, making it easy to see when it was last checked. This helps in staying aware of any changes over time. Running the script regularly ensures ongoing monitoring of hidden files and maintains a log of any script updates.
 ![pic9](assets/Screenshot 9.png)
-
+![pic0](assets/3d6d22105459531.5f918f1f20af0.gif)
 The output reveals significant updates and discoveries. Firstly, it indicates modifications made to a script file named "security_script.3.sh", with added new lines added, marking changes to its functionality. Additionally, hidden files have been unearthed within the "/home/jason" and "/root" directories, hinting at the presence of concealed data. These findings underscore the importance of vigilant monitoring and maintenance to ensure the security and integrity of system files and directories.
 
 # IV) A script to backup your most important information and your logs. 
@@ -46,3 +48,4 @@ the obtained results are displayed into the crearted backup foler in the “/bac
 ![pic12](assets/Screenshot 12.png)
 in the home directory we see that a compressed “backup.tar.gz” file has been created and in the compressed file contain the data of our “home/jason” and  “/etc/var/auth.log” directories
 ![pic13](assets/Screenshot 13.png)
+![pic0](assets/dbefcee01207008a554e731e0236a8e3.png)
